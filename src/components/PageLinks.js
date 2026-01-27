@@ -6,7 +6,12 @@ const PageLinks = ({ parentClass, childClass }) => {
       {pageLinks.map((link) => {
         return (
           <li key={link.id}>
-            <a href={link.href} target="_blank" className={childClass}>
+            <a
+              href={link.href}
+              target="_blank"
+              className={childClass}
+              rel="noopener noreferrer"
+            >
               {link.text}
             </a>
           </li>

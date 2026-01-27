@@ -19,7 +19,12 @@ const Nav = () => {
             const { href, icon, key } = link;
             return (
               <li key={key}>
-                <a href={href} target="_blank" className="nav-icon">
+                <a
+                  href={href}
+                  target="_blank"
+                  className="nav-icon"
+                  rel="noreferrer"
+                >
                   <i className={icon}></i>
                 </a>
               </li>

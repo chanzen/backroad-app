@@ -10,7 +10,7 @@ const PageLinks = ({ parentClass, childClass }) => {
               href={link.href}
               target="_blank"
               className={childClass}
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               {link.text}
             </a>
